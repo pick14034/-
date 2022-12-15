@@ -1,0 +1,2789 @@
+{% extends "layout.html" %}
+{% block content %}
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/world.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/jquery.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/ResizeSensor.js"></script>
+
+            <link rel="stylesheet"  href="https://assets.pyecharts.org/assets/jquery-ui.css">
+
+</head>
+<body>
+    <style>.box {  }; </style>
+        
+    <div class="box">
+                <div id="245d007a504a4afba03e8d2a6f30c4d0" class="chart-container" style="position: absolute; width: 686px; height: 427px; top: 83.33000183105469px; left: 18px;"></div>
+    <script>
+        var chart_245d007a504a4afba03e8d2a6f30c4d0 = echarts.init(
+            document.getElementById('245d007a504a4afba03e8d2a6f30c4d0'), 'white', {renderer: 'canvas'});
+        var option_245d007a504a4afba03e8d2a6f30c4d0 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "map",
+            "name": "\u7d2f\u8ba1\u786e\u8bca\u4eba\u6570",
+            "label": {
+                "show": false,
+                "position": "top",
+                "color": "#fff",
+                "margin": 8
+            },
+            "mapType": "world",
+            "data": [
+                {
+                    "name": "United States",
+                    "value": 2510323
+                },
+                {
+                    "name": "Brazil",
+                    "value": 1315941
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 310250
+                },
+                {
+                    "name": "Russia",
+                    "value": 634437
+                },
+                {
+                    "name": "Chile",
+                    "value": 267766
+                },
+                {
+                    "name": "India",
+                    "value": 528859
+                },
+                {
+                    "name": "Pakistan",
+                    "value": 202955
+                },
+                {
+                    "name": "Peru",
+                    "value": 275989
+                },
+                {
+                    "name": "Bangladesh",
+                    "value": 137787
+                },
+                {
+                    "name": "Spain",
+                    "value": 248469
+                },
+                {
+                    "name": "South Africa",
+                    "value": 131800
+                },
+                {
+                    "name": "France",
+                    "value": 162936
+                },
+                {
+                    "name": "Sweden",
+                    "value": 65484
+                },
+                {
+                    "name": "United Arab Emirates",
+                    "value": 178504
+                },
+                {
+                    "name": "Colombia",
+                    "value": 88591
+                },
+                {
+                    "name": "Ecuador",
+                    "value": 54574
+                },
+                {
+                    "name": "Egypt",
+                    "value": 63923
+                },
+                {
+                    "name": "Argentina",
+                    "value": 57744
+                },
+                {
+                    "name": "Mexico",
+                    "value": 212802
+                },
+                {
+                    "name": " Belgium ",
+                    "value": 61209
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 50074
+                },
+                {
+                    "name": "Iran",
+                    "value": 222669
+                },
+                {
+                    "name": "Canada",
+                    "value": 103032
+                },
+                {
+                    "name": "Indonesia",
+                    "value": 54010
+                },
+                {
+                    "name": "Philippines",
+                    "value": 35455
+                },
+                {
+                    "name": "Ukraine",
+                    "value": 42982
+                },
+                {
+                    "name": "Iraq",
+                    "value": 43262
+                },
+                {
+                    "name": "Turkey",
+                    "value": 195883
+                },
+                {
+                    "name": "Bolivia",
+                    "value": 30676
+                },
+                {
+                    "name": "Afghanistan",
+                    "value": 30616
+                },
+                {
+                    "name": "Dominican Rep.",
+                    "value": 29764
+                },
+                {
+                    "name": "Italy",
+                    "value": 240136
+                },
+                {
+                    "name": "Oman",
+                    "value": 38150
+                },
+                {
+                    "name": "Belarus",
+                    "value": 61095
+                },
+                {
+                    "name": "Qatar",
+                    "value": 93663
+                },
+                {
+                    "name": "Guatemala",
+                    "value": 15619
+                },
+                {
+                    "name": "Honduras",
+                    "value": 15366
+                },
+                {
+                    "name": "Nigeria",
+                    "value": 24077
+                },
+                {
+                    "name": "Panama",
+                    "value": 29037
+                },
+                {
+                    "name": "Portugal",
+                    "value": 41189
+                },
+                {
+                    "name": "Poland",
+                    "value": 33714
+                },
+                {
+                    "name": "Kazakhstan",
+                    "value": 20319
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 47360
+                },
+                {
+                    "name": "Armenia",
+                    "value": 24645
+                },
+                {
+                    "name": "Nepal",
+                    "value": 12772
+                },
+                {
+                    "name": "Kuwait",
+                    "value": 44942
+                },
+                {
+                    "name": "Moldova",
+                    "value": 15776
+                },
+                {
+                    "name": "Azerbaijan",
+                    "value": 15890
+                },
+                {
+                    "name": "Germany",
+                    "value": 193499
+                },
+                {
+                    "name": "Puerto Rico",
+                    "value": 6922
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 43459
+                },
+                {
+                    "name": "Israel",
+                    "value": 23462
+                },
+                {
+                    "name": "Romania",
+                    "value": 26022
+                },
+                {
+                    "name": "Congo",
+                    "value": 6689
+                },
+                {
+                    "name": "Haiti",
+                    "value": 5543
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 25267
+                },
+                {
+                    "name": "ElSalvador",
+                    "value": 5517
+                },
+                {
+                    "name": "C\u00f4te d'Ivoire",
+                    "value": 8739
+                },
+                {
+                    "name": "Sudan",
+                    "value": 9258
+                },
+                {
+                    "name": "Venezuela",
+                    "value": 4563
+                },
+                {
+                    "name": "Ghana",
+                    "value": 16431
+                },
+                {
+                    "name": "Kenya",
+                    "value": 5811
+                },
+                {
+                    "name": "Serbia",
+                    "value": 16286
+                },
+                {
+                    "name": "Ethiopia",
+                    "value": 5570
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 5906
+                },
+                {
+                    "name": "Uzbekistan",
+                    "value": 7490
+                },
+                {
+                    "name": "FrenchGuiana",
+                    "value": 3270
+                },
+                {
+                    "name": "Tajikistan",
+                    "value": 5747
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 11164
+                },
+                {
+                    "name": "Morocco",
+                    "value": 11986
+                },
+                {
+                    "name": "Gabon",
+                    "value": 5209
+                },
+                {
+                    "name": "Algeria",
+                    "value": 12685
+                },
+                {
+                    "name": "Central African Rep.",
+                    "value": 3429
+                },
+                {
+                    "name": "Costa Rica",
+                    "value": 2684
+                },
+                {
+                    "name": "Mauritania",
+                    "value": 4025
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 2526
+                },
+                {
+                    "name": "Denmark",
+                    "value": 12675
+                },
+                {
+                    "name": "Kyrgyzstan",
+                    "value": 4204
+                },
+                {
+                    "name": "Senegal",
+                    "value": 6586
+                },
+                {
+                    "name": "Cameroon",
+                    "value": 12592
+                },
+                {
+                    "name": "Somalia",
+                    "value": 2878
+                },
+                {
+                    "name": "Nicaragua",
+                    "value": 2014
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 4513
+                },
+                {
+                    "name": "Austria",
+                    "value": 17498
+                },
+                {
+                    "name": "Cuba",
+                    "value": 2325
+                },
+                {
+                    "name": "Greece",
+                    "value": 3343
+                },
+                {
+                    "name": "S.Sudan",
+                    "value": 1952
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 4096
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 1815
+                },
+                {
+                    "name": "Guinea-Bissau",
+                    "value": 1614
+                },
+                {
+                    "name": "Djibouti",
+                    "value": 4643
+                },
+                {
+                    "name": "Albania",
+                    "value": 2330
+                },
+                {
+                    "name": "Eq.Guinea",
+                    "value": 1664
+                },
+                {
+                    "name": "Madagascar",
+                    "value": 2005
+                },
+                {
+                    "name": "Guinea",
+                    "value": 5260
+                },
+                {
+                    "name": "Dem.Rep.Korea",
+                    "value": 12715
+                },
+                {
+                    "name": "Hungary",
+                    "value": 4127
+                },
+                {
+                    "name": "Ireland",
+                    "value": 25414
+                },
+                {
+                    "name": "Japan",
+                    "value": 18315
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 31555
+                },
+                {
+                    "name": "Chad",
+                    "value": 865
+                },
+                {
+                    "name": "Malawi",
+                    "value": 1038
+                },
+                {
+                    "name": "Uganda",
+                    "value": 833
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 1027
+                },
+                {
+                    "name": "Benin",
+                    "value": 1053
+                },
+                {
+                    "name": "Paraguay",
+                    "value": 1711
+                },
+                {
+                    "name": "Sierra Leone",
+                    "value": 1394
+                },
+                {
+                    "name": "Dem. Rep. Congo",
+                    "value": 1204
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 1808
+                },
+                {
+                    "name": "Jamaica",
+                    "value": 684
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 713
+                },
+                {
+                    "name": "Finland",
+                    "value": 7191
+                },
+                {
+                    "name": "Estonia",
+                    "value": 1986
+                },
+                {
+                    "name": "Latvia",
+                    "value": 1112
+                },
+                {
+                    "name": "Mozambique",
+                    "value": 839
+                },
+                {
+                    "name": "Mali",
+                    "value": 2118
+                },
+                {
+                    "name": "Libya",
+                    "value": 713
+                },
+                {
+                    "name": "Sri Lanka",
+                    "value": 2014
+                },
+                {
+                    "name": "Norway",
+                    "value": 8815
+                },
+                {
+                    "name": "Liberia",
+                    "value": 684
+                },
+                {
+                    "name": "Australia",
+                    "value": 7641
+                },
+                {
+                    "name": "Lebanon",
+                    "value": 1719
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 517
+                },
+                {
+                    "name": "China",
+                    "value": 85192
+                },
+                {
+                    "name": "Rwanda",
+                    "value": 858
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 702
+                },
+                {
+                    "name": "Togo",
+                    "value": 591
+                },
+                {
+                    "name": "Cyprus",
+                    "value": 992
+                },
+                {
+                    "name": "Yemen",
+                    "value": 1093
+                },
+                {
+                    "name": "Zimbabwe",
+                    "value": 561
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 2305
+                },
+                {
+                    "name": "Swaziland",
+                    "value": 731
+                },
+                {
+                    "name": "Croatia ",
+                    "value": 2624
+                },
+                {
+                    "name": "Malaysia",
+                    "value": 8606
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 855
+                },
+                {
+                    "name": "Tanzania",
+                    "value": 509
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 336
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 670
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 319
+                },
+                {
+                    "name": "Zambia",
+                    "value": 1531
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 4173
+                },
+                {
+                    "name": "Suriname",
+                    "value": 433
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 1104
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 272
+                },
+                {
+                    "name": "Niger",
+                    "value": 1059
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 252
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 240
+                },
+                {
+                    "name": "Burkina Faso",
+                    "value": 934
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 236
+                },
+                {
+                    "name": "Syria",
+                    "value": 254
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 921
+                },
+                {
+                    "name": "Mongolia",
+                    "value": 219
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 196
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 187
+                },
+                {
+                    "name": "Guyana",
+                    "value": 215
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 176
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 182
+                },
+                {
+                    "name": "Slovakia",
+                    "value": 1643
+                },
+                {
+                    "name": "Angola",
+                    "value": 244
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 144
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 146
+                },
+                {
+                    "name": "Thailand",
+                    "value": 3162
+                },
+                {
+                    "name": "Eritrea",
+                    "value": 167
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 712
+                },
+                {
+                    "name": "Botswana",
+                    "value": 125
+                },
+                {
+                    "name": "TrinidadandTobago",
+                    "value": 123
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 1558
+                },
+                {
+                    "name": "Tunisia",
+                    "value": 1164
+                },
+                {
+                    "name": "Montenegro",
+                    "value": 424
+                },
+                {
+                    "name": "Namibia",
+                    "value": 102
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 101
+                },
+                {
+                    "name": " Bahamas ",
+                    "value": 104
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 99
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 97
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 89
+                },
+                {
+                    "name": "Vietnam",
+                    "value": 353
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 81
+                },
+                {
+                    "name": "Myanmar",
+                    "value": 293
+                },
+                {
+                    "name": "Bhutan",
+                    "value": 70
+                },
+                {
+                    "name": "Iceland",
+                    "value": 1832
+                },
+                {
+                    "name": "Uruguay",
+                    "value": 907
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 78
+                },
+                {
+                    "name": "Gambia",
+                    "value": 44
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 42
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 29
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 30
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 83
+                },
+                {
+                    "name": "Timor-Leste",
+                    "value": 24
+                },
+                {
+                    "name": "Lesotho",
+                    "value": 24
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 26
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 24
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 23
+                },
+                {
+                    "name": "Belize",
+                    "value": 23
+                },
+                {
+                    "name": "New Caledonia",
+                    "value": 21
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 20
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 19
+                },
+                {
+                    "name": "Lao PDR",
+                    "value": 19
+                },
+                {
+                    "name": "Fiji",
+                    "value": 18
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 18
+                },
+                {
+                    "name": "Cambodia",
+                    "value": 139
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 16
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 15
+                },
+                {
+                    "name": "Greenland",
+                    "value": 13
+                },
+                {
+                    "name": "FalklandIs",
+                    "value": 13
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 12
+                },
+                {
+                    "name": "Papua New Guinea",
+                    "value": 11
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 11
+                },
+                {
+                    "name": "Brunei ",
+                    "value": 141
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 8
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 7
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 341
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 6
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 3
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 1
+                },
+                {
+                    "name": "New Zealand",
+                    "value": 1172
+                }
+            ],
+            "roam": false,
+            "zoom": 1,
+            "showLegendSymbol": false,
+            "emphasis": {},
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u7d2f\u8ba1\u786e\u8bca\u4eba\u6570"
+            ],
+            "selected": {
+                "\u7d2f\u8ba1\u786e\u8bca\u4eba\u6570": true
+            },
+            "show": false,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "title": [
+        {
+            "text": "\u5168\u7403\u75ab\u60c5\u7d2f\u8ba1\u786e\u8bca\u4eba\u6570\u5730\u56fe",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "piecewise",
+        "min": 0,
+        "max": 2700,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "orient": "vertical",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 14,
+        "borderWidth": 0,
+        "pieces": [
+            {
+                "max": 999999999,
+                "min": 1000000,
+                "label": "1000000\u4eba\u4ee5\u4e0a",
+                "color": "#000000"
+            },
+            {
+                "max": 999999,
+                "min": 100000,
+                "label": "100000-999999\u4eba",
+                "color": "#8A0808"
+            },
+            {
+                "max": 99999,
+                "min": 10000,
+                "label": "10000-99999\u4eba",
+                "color": "#B40404"
+            },
+            {
+                "max": 9999,
+                "min": 1000,
+                "label": "1000-9999\u4eba",
+                "color": "#DF0101"
+            },
+            {
+                "max": 999,
+                "min": 500,
+                "label": "500-999\u4eba",
+                "color": "#F78181"
+            },
+            {
+                "max": 499,
+                "min": 100,
+                "label": "100-499\u4eba",
+                "color": "#F5A9A9"
+            },
+            {
+                "max": 99,
+                "min": 10,
+                "label": "10-99\u4eba",
+                "color": "#FFFFCC"
+            }
+        ]
+    }
+};
+        chart_245d007a504a4afba03e8d2a6f30c4d0.setOption(option_245d007a504a4afba03e8d2a6f30c4d0);
+    </script>
+<br/>                <div id="57a59ced9bbf4120851f76e174b784e8" class="chart-container" style="position: absolute; width: 1264px; height: 318px; top: 524.72998046875px; left: 32px;"></div>
+    <script>
+        var chart_57a59ced9bbf4120851f76e174b784e8 = echarts.init(
+            document.getElementById('57a59ced9bbf4120851f76e174b784e8'), 'white', {renderer: 'canvas'});
+        var option_57a59ced9bbf4120851f76e174b784e8 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#000000",
+        "#e83132",
+        "#ac12cb",
+        "#10aeb5",
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "line",
+            "name": "\u7d2f\u8ba1\u786e\u8bca",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "step": false,
+            "data": [
+                [
+                    "2020-04-1",
+                    874151
+                ],
+                [
+                    "2020-04-2",
+                    951664
+                ],
+                [
+                    "2020-04-3",
+                    1028491
+                ],
+                [
+                    "2020-04-4",
+                    1111504
+                ],
+                [
+                    "2020-04-5",
+                    1197832
+                ],
+                [
+                    "2020-04-6",
+                    1258147
+                ],
+                [
+                    "2020-04-7",
+                    1355434
+                ],
+                [
+                    "2020-04-8",
+                    1412761
+                ],
+                [
+                    "2020-04-9",
+                    1491618
+                ],
+                [
+                    "2020-04-10",
+                    1575116
+                ],
+                [
+                    "2020-04-11",
+                    1668442
+                ],
+                [
+                    "2020-04-12",
+                    1753426
+                ],
+                [
+                    "2020-04-13",
+                    1825415
+                ],
+                [
+                    "2020-04-14",
+                    1892897
+                ],
+                [
+                    "2020-04-15",
+                    1970023
+                ],
+                [
+                    "2020-04-16",
+                    2047104
+                ],
+                [
+                    "2020-04-17",
+                    2143512
+                ],
+                [
+                    "2020-04-18",
+                    2224899
+                ],
+                [
+                    "2020-04-19",
+                    2308314
+                ],
+                [
+                    "2020-04-20",
+                    2377464
+                ],
+                [
+                    "2020-04-21",
+                    2456738
+                ],
+                [
+                    "2020-04-22",
+                    2544484
+                ],
+                [
+                    "2020-04-23",
+                    2613533
+                ],
+                [
+                    "2020-04-24",
+                    2699710
+                ],
+                [
+                    "2020-04-25",
+                    2785986
+                ],
+                [
+                    "2020-04-26",
+                    2867797
+                ],
+                [
+                    "2020-04-27",
+                    2934279
+                ],
+                [
+                    "2020-04-28",
+                    3002616
+                ],
+                [
+                    "2020-04-29",
+                    3076948
+                ],
+                [
+                    "2020-04-30",
+                    3152074
+                ],
+                [
+                    "2020-05-1",
+                    3238867
+                ],
+                [
+                    "2020-05-2",
+                    3330706
+                ],
+                [
+                    "2020-05-3",
+                    3409676
+                ],
+                [
+                    "2020-05-4",
+                    3481329
+                ],
+                [
+                    "2020-05-5",
+                    3566490
+                ],
+                [
+                    "2020-05-6",
+                    3648388
+                ],
+                [
+                    "2020-05-7",
+                    3735041
+                ],
+                [
+                    "2020-05-8",
+                    3831600
+                ],
+                [
+                    "2020-05-9",
+                    3922240
+                ],
+                [
+                    "2020-05-10",
+                    4014931
+                ],
+                [
+                    "2020-05-11",
+                    4094023
+                ],
+                [
+                    "2020-05-12",
+                    4160623
+                ],
+                [
+                    "2020-05-13",
+                    4250248
+                ],
+                [
+                    "2020-05-14",
+                    4342039
+                ],
+                [
+                    "2020-05-15",
+                    4439238
+                ],
+                [
+                    "2020-05-16",
+                    4530038
+                ],
+                [
+                    "2020-05-17",
+                    4623456
+                ],
+                [
+                    "2020-05-18",
+                    4704295
+                ],
+                [
+                    "2020-05-19",
+                    4793819
+                ],
+                [
+                    "2020-05-20",
+                    4887115
+                ],
+                [
+                    "2020-05-21",
+                    4992167
+                ],
+                [
+                    "2020-05-22",
+                    5097878
+                ],
+                [
+                    "2020-05-23",
+                    5205825
+                ],
+                [
+                    "2020-05-24",
+                    5304422
+                ],
+                [
+                    "2020-05-25",
+                    5395569
+                ],
+                [
+                    "2020-05-26",
+                    5479331
+                ],
+                [
+                    "2020-05-27",
+                    5575567
+                ],
+                [
+                    "2020-05-28",
+                    5676380
+                ],
+                [
+                    "2020-05-29",
+                    5799136
+                ],
+                [
+                    "2020-05-30",
+                    5922356
+                ],
+                [
+                    "2020-05-31",
+                    6054902
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "line",
+            "name": "\u9884\u6d4b\u786e\u8bca",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "step": false,
+            "data": [
+                [
+                    "2020-04-1",
+                    1113337.8350833345
+                ],
+                [
+                    "2020-04-2",
+                    1159615.3637994307
+                ],
+                [
+                    "2020-04-3",
+                    1207476.2672398002
+                ],
+                [
+                    "2020-04-4",
+                    1256946.3658579031
+                ],
+                [
+                    "2020-04-5",
+                    1308049.4894134128
+                ],
+                [
+                    "2020-04-6",
+                    1360807.2574694073
+                ],
+                [
+                    "2020-04-7",
+                    1415238.8549047387
+                ],
+                [
+                    "2020-04-8",
+                    1471360.803755202
+                ],
+                [
+                    "2020-04-9",
+                    1529186.7328722356
+                ],
+                [
+                    "2020-04-10",
+                    1588727.1470628101
+                ],
+                [
+                    "2020-04-11",
+                    1649989.197545766
+                ],
+                [
+                    "2020-04-12",
+                    1712976.4557247586
+                ],
+                [
+                    "2020-04-13",
+                    1777688.6924324026
+                ],
+                [
+                    "2020-04-14",
+                    1844121.6649400294
+                ],
+                [
+                    "2020-04-15",
+                    1912266.9141485943
+                ],
+                [
+                    "2020-04-16",
+                    1982111.5744741762
+                ],
+                [
+                    "2020-04-17",
+                    2053638.1990118453
+                ],
+                [
+                    "2020-04-18",
+                    2126824.602600147
+                ],
+                [
+                    "2020-04-19",
+                    2201643.7254109792
+                ],
+                [
+                    "2020-04-20",
+                    2278063.519652424
+                ],
+                [
+                    "2020-04-21",
+                    2356046.8618920743
+                ],
+                [
+                    "2020-04-22",
+                    2435551.493382936
+                ],
+                [
+                    "2020-04-23",
+                    2516529.990601366
+                ],
+                [
+                    "2020-04-24",
+                    2598929.767986125
+                ],
+                [
+                    "2020-04-25",
+                    2682693.1145995315
+                ],
+                [
+                    "2020-04-26",
+                    2767757.2661177553
+                ],
+                [
+                    "2020-04-27",
+                    2854054.513199903
+                ],
+                [
+                    "2020-04-28",
+                    2941512.346889032
+                ],
+                [
+                    "2020-04-29",
+                    3030053.641267764
+                ],
+                [
+                    "2020-04-30",
+                    3119596.8731332887
+                ],
+                [
+                    "2020-05-1",
+                    3210056.377979088
+                ],
+                [
+                    "2020-05-2",
+                    3301342.6410819846
+                ],
+                [
+                    "2020-05-3",
+                    3393362.6220029593
+                ],
+                [
+                    "2020-05-4",
+                    3486020.1103281574
+                ],
+                [
+                    "2020-05-5",
+                    3579216.110013125
+                ],
+                [
+                    "2020-05-6",
+                    3672849.249258676
+                ],
+                [
+                    "2020-05-7",
+                    3766816.2124507283
+                ],
+                [
+                    "2020-05-8",
+                    3861012.190348416
+                ],
+                [
+                    "2020-05-9",
+                    3955331.344412765
+                ],
+                [
+                    "2020-05-10",
+                    4049667.280939619
+                ],
+                [
+                    "2020-05-11",
+                    4143913.530500712
+                ],
+                [
+                    "2020-05-12",
+                    4237964.0281098485
+                ],
+                [
+                    "2020-05-13",
+                    4331713.589519279
+                ],
+                [
+                    "2020-05-14",
+                    4425058.379114771
+                ],
+                [
+                    "2020-05-15",
+                    4517896.365015041
+                ],
+                [
+                    "2020-05-16",
+                    4610127.757188706
+                ],
+                [
+                    "2020-05-17",
+                    4701655.424674568
+                ],
+                [
+                    "2020-05-18",
+                    4792385.288322354
+                ],
+                [
+                    "2020-05-19",
+                    4882226.685852879
+                ],
+                [
+                    "2020-05-20",
+                    4971092.706460115
+                ],
+                [
+                    "2020-05-21",
+                    5058900.492633093
+                ],
+                [
+                    "2020-05-22",
+                    5145571.507352807
+                ],
+                [
+                    "2020-05-23",
+                    5231031.765307971
+                ],
+                [
+                    "2020-05-24",
+                    5315212.027263747
+                ],
+                [
+                    "2020-05-25",
+                    5398047.957199462
+                ],
+                [
+                    "2020-05-26",
+                    5479480.242296361
+                ],
+                [
+                    "2020-05-27",
+                    5559454.676296246
+                ],
+                [
+                    "2020-05-28",
+                    5637922.207159689
+                ],
+                [
+                    "2020-05-29",
+                    5714838.950322764
+                ],
+                [
+                    "2020-05-30",
+                    5790166.169179223
+                ],
+                [
+                    "2020-05-31",
+                    5863870.224697775
+                ],
+                [
+                    "2020-06-1",
+                    5935922.496319678
+                ],
+                [
+                    "2020-06-2",
+                    6006299.2764694495
+                ],
+                [
+                    "2020-06-3",
+                    6074981.641151726
+                ],
+                [
+                    "2020-06-4",
+                    6141955.299201347
+                ],
+                [
+                    "2020-06-5",
+                    6207210.422804182
+                ],
+                [
+                    "2020-06-6",
+                    6270741.461915796
+                ],
+                [
+                    "2020-06-7",
+                    6332546.945177504
+                ],
+                [
+                    "2020-06-8",
+                    6392629.269868595
+                ],
+                [
+                    "2020-06-9",
+                    6450994.483343815
+                ],
+                [
+                    "2020-06-10",
+                    6507652.058290955
+                ],
+                [
+                    "2020-06-11",
+                    6562614.664008897
+                ],
+                [
+                    "2020-06-12",
+                    6615897.935756352
+                ],
+                [
+                    "2020-06-13",
+                    6667520.244059329
+                ],
+                [
+                    "2020-06-14",
+                    6717502.465695614
+                ],
+                [
+                    "2020-06-15",
+                    6765867.757900276
+                ],
+                [
+                    "2020-06-16",
+                    6812641.337160835
+                ],
+                [
+                    "2020-06-17",
+                    6857850.263797091
+                ],
+                [
+                    "2020-06-18",
+                    6901523.233350992
+                ],
+                [
+                    "2020-06-19",
+                    6943690.375648502
+                ],
+                [
+                    "2020-06-20",
+                    6984383.062239848
+                ],
+                [
+                    "2020-06-21",
+                    7023633.722777958
+                ],
+                [
+                    "2020-06-22",
+                    7061475.670758534
+                ],
+                [
+                    "2020-06-23",
+                    7097942.93891953
+                ],
+                [
+                    "2020-06-24",
+                    7133070.124483221
+                ],
+                [
+                    "2020-06-25",
+                    7166892.244320936
+                ],
+                [
+                    "2020-06-26",
+                    7199444.600028382
+                ],
+                [
+                    "2020-06-27",
+                    7230762.6528186025
+                ],
+                [
+                    "2020-06-28",
+                    7260881.9080692055
+                ],
+                [
+                    "2020-06-29",
+                    7289837.809300192
+                ],
+                [
+                    "2020-06-30",
+                    7317665.641308195
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "line",
+            "name": "\u7d2f\u8ba1\u6cbb\u6108",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "step": false,
+            "data": [
+                [
+                    "2020-04-1",
+                    169143
+                ],
+                [
+                    "2020-04-2",
+                    185084
+                ],
+                [
+                    "2020-04-3",
+                    200455
+                ],
+                [
+                    "2020-04-4",
+                    214233
+                ],
+                [
+                    "2020-04-5",
+                    233919
+                ],
+                [
+                    "2020-04-6",
+                    242862
+                ],
+                [
+                    "2020-04-7",
+                    252375
+                ],
+                [
+                    "2020-04-8",
+                    312393
+                ],
+                [
+                    "2020-04-9",
+                    328019
+                ],
+                [
+                    "2020-04-10",
+                    352771
+                ],
+                [
+                    "2020-04-11",
+                    379598
+                ],
+                [
+                    "2020-04-12",
+                    397118
+                ],
+                [
+                    "2020-04-13",
+                    422075
+                ],
+                [
+                    "2020-04-14",
+                    445444
+                ],
+                [
+                    "2020-04-15",
+                    482245
+                ],
+                [
+                    "2020-04-16",
+                    506584
+                ],
+                [
+                    "2020-04-17",
+                    538755
+                ],
+                [
+                    "2020-04-18",
+                    557601
+                ],
+                [
+                    "2020-04-19",
+                    587066
+                ],
+                [
+                    "2020-04-20",
+                    624683
+                ],
+                [
+                    "2020-04-21",
+                    646202
+                ],
+                [
+                    "2020-04-22",
+                    682334
+                ],
+                [
+                    "2020-04-23",
+                    706066
+                ],
+                [
+                    "2020-04-24",
+                    735851
+                ],
+                [
+                    "2020-04-25",
+                    777099
+                ],
+                [
+                    "2020-04-26",
+                    812426
+                ],
+                [
+                    "2020-04-27",
+                    833192
+                ],
+                [
+                    "2020-04-28",
+                    873629
+                ],
+                [
+                    "2020-04-29",
+                    908627
+                ],
+                [
+                    "2020-04-30",
+                    945058
+                ],
+                [
+                    "2020-05-1",
+                    1007281
+                ],
+                [
+                    "2020-05-2",
+                    1059020
+                ],
+                [
+                    "2020-05-3",
+                    1094312
+                ],
+                [
+                    "2020-05-4",
+                    1125222
+                ],
+                [
+                    "2020-05-5",
+                    1164611
+                ],
+                [
+                    "2020-05-6",
+                    1196102
+                ],
+                [
+                    "2020-05-7",
+                    1236673
+                ],
+                [
+                    "2020-05-8",
+                    1274293
+                ],
+                [
+                    "2020-05-9",
+                    1312026
+                ],
+                [
+                    "2020-05-10",
+                    1358175
+                ],
+                [
+                    "2020-05-11",
+                    1394954
+                ],
+                [
+                    "2020-05-12",
+                    1446953
+                ],
+                [
+                    "2020-05-13",
+                    1475457
+                ],
+                [
+                    "2020-05-14",
+                    1534932
+                ],
+                [
+                    "2020-05-15",
+                    1573077
+                ],
+                [
+                    "2020-05-16",
+                    1612402
+                ],
+                [
+                    "2020-05-17",
+                    1687130
+                ],
+                [
+                    "2020-05-18",
+                    1725034
+                ],
+                [
+                    "2020-05-19",
+                    1775709
+                ],
+                [
+                    "2020-05-20",
+                    1831330
+                ],
+                [
+                    "2020-05-21",
+                    1888383
+                ],
+                [
+                    "2020-05-22",
+                    1950722
+                ],
+                [
+                    "2020-05-23",
+                    2049176
+                ],
+                [
+                    "2020-05-24",
+                    2101881
+                ],
+                [
+                    "2020-05-25",
+                    2144184
+                ],
+                [
+                    "2020-05-26",
+                    2212890
+                ],
+                [
+                    "2020-05-27",
+                    2263941
+                ],
+                [
+                    "2020-05-28",
+                    2318456
+                ],
+                [
+                    "2020-05-29",
+                    2401552
+                ],
+                [
+                    "2020-05-30",
+                    2458757
+                ],
+                [
+                    "2020-05-31",
+                    2525034
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "line",
+            "name": "\u7d2f\u8ba1\u6b7b\u4ea1",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "step": false,
+            "data": [
+                [
+                    "2020-04-1",
+                    43804
+                ],
+                [
+                    "2020-04-2",
+                    48832
+                ],
+                [
+                    "2020-04-3",
+                    53722
+                ],
+                [
+                    "2020-04-4",
+                    60502
+                ],
+                [
+                    "2020-04-5",
+                    66156
+                ],
+                [
+                    "2020-04-6",
+                    71088
+                ],
+                [
+                    "2020-04-7",
+                    75776
+                ],
+                [
+                    "2020-04-8",
+                    82993
+                ],
+                [
+                    "2020-04-9",
+                    88607
+                ],
+                [
+                    "2020-04-10",
+                    96532
+                ],
+                [
+                    "2020-04-11",
+                    103463
+                ],
+                [
+                    "2020-04-12",
+                    110223
+                ],
+                [
+                    "2020-04-13",
+                    115411
+                ],
+                [
+                    "2020-04-14",
+                    120843
+                ],
+                [
+                    "2020-04-15",
+                    128204
+                ],
+                [
+                    "2020-04-16",
+                    138845
+                ],
+                [
+                    "2020-04-17",
+                    147300
+                ],
+                [
+                    "2020-04-18",
+                    155731
+                ],
+                [
+                    "2020-04-19",
+                    161743
+                ],
+                [
+                    "2020-04-20",
+                    166008
+                ],
+                [
+                    "2020-04-21",
+                    172248
+                ],
+                [
+                    "2020-04-22",
+                    179235
+                ],
+                [
+                    "2020-04-23",
+                    185036
+                ],
+                [
+                    "2020-04-24",
+                    192522
+                ],
+                [
+                    "2020-04-25",
+                    198676
+                ],
+                [
+                    "2020-04-26",
+                    204014
+                ],
+                [
+                    "2020-04-27",
+                    207239
+                ],
+                [
+                    "2020-04-28",
+                    212671
+                ],
+                [
+                    "2020-04-29",
+                    218025
+                ],
+                [
+                    "2020-04-30",
+                    228108
+                ],
+                [
+                    "2020-05-1",
+                    233730
+                ],
+                [
+                    "2020-05-2",
+                    239403
+                ],
+                [
+                    "2020-05-3",
+                    243884
+                ],
+                [
+                    "2020-05-4",
+                    247497
+                ],
+                [
+                    "2020-05-5",
+                    251918
+                ],
+                [
+                    "2020-05-6",
+                    257970
+                ],
+                [
+                    "2020-05-7",
+                    263986
+                ],
+                [
+                    "2020-05-8",
+                    270042
+                ],
+                [
+                    "2020-05-9",
+                    275136
+                ],
+                [
+                    "2020-05-10",
+                    279704
+                ],
+                [
+                    "2020-05-11",
+                    282996
+                ],
+                [
+                    "2020-05-12",
+                    286330
+                ],
+                [
+                    "2020-05-13",
+                    292708
+                ],
+                [
+                    "2020-05-14",
+                    298005
+                ],
+                [
+                    "2020-05-15",
+                    303251
+                ],
+                [
+                    "2020-05-16",
+                    309175
+                ],
+                [
+                    "2020-05-17",
+                    312385
+                ],
+                [
+                    "2020-05-18",
+                    315756
+                ],
+                [
+                    "2020-05-19",
+                    318979
+                ],
+                [
+                    "2020-05-20",
+                    323711
+                ],
+                [
+                    "2020-05-21",
+                    328908
+                ],
+                [
+                    "2020-05-22",
+                    334282
+                ],
+                [
+                    "2020-05-23",
+                    338705
+                ],
+                [
+                    "2020-05-24",
+                    342707
+                ],
+                [
+                    "2020-05-25",
+                    345251
+                ],
+                [
+                    "2020-05-26",
+                    346414
+                ],
+                [
+                    "2020-05-27",
+                    350961
+                ],
+                [
+                    "2020-05-28",
+                    355823
+                ],
+                [
+                    "2020-05-29",
+                    360487
+                ],
+                [
+                    "2020-05-30",
+                    365372
+                ],
+                [
+                    "2020-05-31",
+                    369443
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "zlevel": 0,
+            "z": 0,
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u7d2f\u8ba1\u786e\u8bca",
+                "\u9884\u6d4b\u786e\u8bca",
+                "\u7d2f\u8ba1\u6cbb\u6108",
+                "\u7d2f\u8ba1\u6b7b\u4ea1"
+            ],
+            "selected": {
+                "\u7d2f\u8ba1\u786e\u8bca": true,
+                "\u9884\u6d4b\u786e\u8bca": true,
+                "\u7d2f\u8ba1\u6cbb\u6108": true,
+                "\u7d2f\u8ba1\u6b7b\u4ea1": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "xAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "2020-04-1",
+                "2020-04-2",
+                "2020-04-3",
+                "2020-04-4",
+                "2020-04-5",
+                "2020-04-6",
+                "2020-04-7",
+                "2020-04-8",
+                "2020-04-9",
+                "2020-04-10",
+                "2020-04-11",
+                "2020-04-12",
+                "2020-04-13",
+                "2020-04-14",
+                "2020-04-15",
+                "2020-04-16",
+                "2020-04-17",
+                "2020-04-18",
+                "2020-04-19",
+                "2020-04-20",
+                "2020-04-21",
+                "2020-04-22",
+                "2020-04-23",
+                "2020-04-24",
+                "2020-04-25",
+                "2020-04-26",
+                "2020-04-27",
+                "2020-04-28",
+                "2020-04-29",
+                "2020-04-30",
+                "2020-05-1",
+                "2020-05-2",
+                "2020-05-3",
+                "2020-05-4",
+                "2020-05-5",
+                "2020-05-6",
+                "2020-05-7",
+                "2020-05-8",
+                "2020-05-9",
+                "2020-05-10",
+                "2020-05-11",
+                "2020-05-12",
+                "2020-05-13",
+                "2020-05-14",
+                "2020-05-15",
+                "2020-05-16",
+                "2020-05-17",
+                "2020-05-18",
+                "2020-05-19",
+                "2020-05-20",
+                "2020-05-21",
+                "2020-05-22",
+                "2020-05-23",
+                "2020-05-24",
+                "2020-05-25",
+                "2020-05-26",
+                "2020-05-27",
+                "2020-05-28",
+                "2020-05-29",
+                "2020-05-30",
+                "2020-05-31",
+                "2020-06-1",
+                "2020-06-2",
+                "2020-06-3",
+                "2020-06-4",
+                "2020-06-5",
+                "2020-06-6",
+                "2020-06-7",
+                "2020-06-8",
+                "2020-06-9",
+                "2020-06-10",
+                "2020-06-11",
+                "2020-06-12",
+                "2020-06-13",
+                "2020-06-14",
+                "2020-06-15",
+                "2020-06-16",
+                "2020-06-17",
+                "2020-06-18",
+                "2020-06-19",
+                "2020-06-20",
+                "2020-06-21",
+                "2020-06-22",
+                "2020-06-23",
+                "2020-06-24",
+                "2020-06-25",
+                "2020-06-26",
+                "2020-06-27",
+                "2020-06-28",
+                "2020-06-29",
+                "2020-06-30"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "\u4e16\u754c\u75ab\u60c5\u968f\u65f6\u95f4\u53d8\u5316\u8d8b\u52bf",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_57a59ced9bbf4120851f76e174b784e8.setOption(option_57a59ced9bbf4120851f76e174b784e8);
+    </script>
+<br/>                <div id="1b1c20443ded4e43b6f674ed68e87ded" class="chart-container" style="position: absolute; width: 728px; height: 427px; top: 83.12999725341797px; left: 656px;"></div>
+    <script>
+        var chart_1b1c20443ded4e43b6f674ed68e87ded = echarts.init(
+            document.getElementById('1b1c20443ded4e43b6f674ed68e87ded'), 'white', {renderer: 'canvas'});
+        var option_1b1c20443ded4e43b6f674ed68e87ded = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#000000",
+        "#e83132",
+        "#10aeb5",
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "bar",
+            "name": "\u7d2f\u8ba1\u786e\u8bca",
+            "data": [
+                1528661.0,
+                308705.0,
+                271885.0,
+                248818.0,
+                232037.0,
+                226699.0,
+                176007.0,
+                151615.0,
+                143427.0,
+                126949.0,
+                106750.0,
+                99483.0,
+                84506.0,
+                79112.0,
+                62545.0
+            ],
+            "barCategoryGap": "20%",
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "bar",
+            "name": "\u7d2f\u8ba1\u6cbb\u6108",
+            "data": [
+                289392.0,
+                85392.0,
+                106794.0,
+                539.0,
+                150376.0,
+                129401.0,
+                156900.0,
+                112895.0,
+                62563.0,
+                98808.0,
+                42298.0,
+                36524.0,
+                79720.0,
+                40050.0,
+                33478.0
+            ],
+            "barCategoryGap": "20%",
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "bar",
+            "name": "\u7d2f\u8ba1\u6b7b\u4ea1",
+            "data": [
+                91938.0,
+                2972.0,
+                17983.0,
+                35341.0,
+                27778.0,
+                32169.0,
+                8090.0,
+                4199.0,
+                28022.0,
+                7183.0,
+                3303.0,
+                2914.0,
+                4645.0,
+                5912.0,
+                339.0
+            ],
+            "barCategoryGap": "20%",
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u7d2f\u8ba1\u786e\u8bca",
+                "\u7d2f\u8ba1\u6cbb\u6108",
+                "\u7d2f\u8ba1\u6b7b\u4ea1"
+            ],
+            "selected": {
+                "\u7d2f\u8ba1\u786e\u8bca": true,
+                "\u7d2f\u8ba1\u6cbb\u6108": true,
+                "\u7d2f\u8ba1\u6b7b\u4ea1": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "xAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "\u7f8e\u56fd",
+                "\u4fc4\u7f57\u65af",
+                "\u5df4\u897f",
+                "\u82f1\u56fd",
+                "\u897f\u73ed\u7259",
+                "\u610f\u5927\u5229",
+                "\u5fb7\u56fd",
+                "\u571f\u8033\u5176",
+                "\u6cd5\u56fd",
+                "\u4f0a\u6717",
+                "\u5370\u5ea6",
+                "\u79d8\u9c81",
+                "\u4e2d\u56fd",
+                "\u52a0\u62ff\u5927",
+                "\u6c99\u7279\u963f\u62c9\u4f2f"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "\u7206\u53d1\u56fd\u5bb6\u75ab\u60c5\u6761\u5f62\u56fe",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_1b1c20443ded4e43b6f674ed68e87ded.setOption(option_1b1c20443ded4e43b6f674ed68e87ded);
+    </script>
+<br/>    </div>
+    <script>
+            $('#245d007a504a4afba03e8d2a6f30c4d0').css('border-style', 'dashed').css('border-width', '0px');$("#245d007a504a4afba03e8d2a6f30c4d0>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#245d007a504a4afba03e8d2a6f30c4d0'), function() { chart_245d007a504a4afba03e8d2a6f30c4d0.resize()});
+            $('#57a59ced9bbf4120851f76e174b784e8').css('border-style', 'dashed').css('border-width', '0px');$("#57a59ced9bbf4120851f76e174b784e8>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#57a59ced9bbf4120851f76e174b784e8'), function() { chart_57a59ced9bbf4120851f76e174b784e8.resize()});
+            $('#1b1c20443ded4e43b6f674ed68e87ded').css('border-style', 'dashed').css('border-width', '0px');$("#1b1c20443ded4e43b6f674ed68e87ded>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#1b1c20443ded4e43b6f674ed68e87ded'), function() { chart_1b1c20443ded4e43b6f674ed68e87ded.resize()});
+            var charts_id = ['245d007a504a4afba03e8d2a6f30c4d0','57a59ced9bbf4120851f76e174b784e8','1b1c20443ded4e43b6f674ed68e87ded'];
+function downloadCfg () {
+    const fileName = 'chart_config.json'
+    let downLink = document.createElement('a')
+    downLink.download = fileName
+
+    let result = []
+    for(let i=0; i<charts_id.length; i++) {
+        chart = $('#'+charts_id[i])
+        result.push({
+            cid: charts_id[i],
+            width: chart.css("width"),
+            height: chart.css("height"),
+            top: chart.offset().top + "px",
+            left: chart.offset().left + "px"
+        })
+    }
+
+    let blob = new Blob([JSON.stringify(result)])
+    downLink.href = URL.createObjectURL(blob)
+    document.body.appendChild(downLink)
+    downLink.click()
+    document.body.removeChild(downLink)
+}
+    </script>
+</body>
+{% endblock %}
